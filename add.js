@@ -20,7 +20,7 @@ function generate_equation(){
 
   allAnswers = [answer, dummyAnswer1, dummyAnswer2];
 
-  for (i = allAnswers.length; i--;){
+  for (var i = allAnswers.length; i--;){
     switchAnswers.push(allAnswers.splice(Math.floor(Math.random() * (i + 1)), 1)[0]);
   };
 
