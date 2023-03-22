@@ -1,7 +1,6 @@
 const option1 = document.getElementById("option1"),
       option2 = document.getElementById("option2"),
       option3 = document.getElementById("option3"),
-      option4,
       audio = document.getElementById("myAudio");  
 var answer = 0;
 
@@ -27,7 +26,7 @@ function generate_equation(){
   option1.innerHTML = switchAnswers[0];
   option2.innerHTML = switchAnswers[1];
   option3.innerHTML = switchAnswers[2];
-//   option4.innerHTML = switchAnswers[2];
+option4.innerHTML = switchAnswers[2];
 };
 
 option1.addEventListener("click", function(){
