@@ -36,6 +36,7 @@ option1.addEventListener("click", function(){
     }
     else{
       audio.play();
+          ontion1=NULL
     }
 });
 
