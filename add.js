@@ -26,7 +26,8 @@ function generate_equation(){
 
   option1.innerHTML = switchAnswers[0];
   option2.innerHTML = switchAnswers[1];
-  option3.innerHTML = switchAnswers[2]; 
+  option3.innerHTML = switchAnswers[2];
+  option4.innerHTML = switchAnswers[2];
 };
 
 option1.addEventListener("click", function(){
