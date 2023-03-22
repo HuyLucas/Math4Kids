@@ -1,13 +1,13 @@
 const option1 = document.getElementById("option1"),
       option2 = document.getElementById("option2"),
       option3 = document.getElementById("option3"),
-      option3,
+      option4,
       audio = document.getElementById("myAudio");  
 var answer = 0;
 
 function generate_equation(){ 
   var num1 = Math.floor(Math.random() * 13),
-      num1 = Math.floor(Math.random() * 31),
+      num21 = Math.floor(Math.random() * 31),
       dummyAnswer1 = Math.floor(Math.random() * 10),
       dummyAnswer2 = Math.floor(Math.random() * 10),
       allAnswers = [],
@@ -27,7 +27,7 @@ function generate_equation(){
   option1.innerHTML = switchAnswers[0];
   option2.innerHTML = switchAnswers[1];
   option3.innerHTML = switchAnswers[2];
-  option4.innerHTML = switchAnswers[2];
+//   option4.innerHTML = switchAnswers[2];
 };
 
 option1.addEventListener("click", function(){
