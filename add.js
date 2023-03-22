@@ -6,7 +6,7 @@ var answer = 0;
 
 function generate_equation(){ 
   var num1 = Math.floor(Math.random() * 13),
-      num2 = Math.floor(Math.random() * 13),
+      num1 = Math.floor(Math.random() * 31),
       dummyAnswer1 = Math.floor(Math.random() * 10),
       dummyAnswer2 = Math.floor(Math.random() * 10),
       allAnswers = [],
